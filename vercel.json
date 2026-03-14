@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd frontend && flutter build web --web-renderer canvaskit --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY --dart-define=CLOUDINARY_CLOUD_NAME=$CLOUDINARY_CLOUD_NAME --dart-define=MONNIFY_CONTRACT_CODE=$MONNIFY_CONTRACT_CODE --dart-define=MONNIFY_API_KEY=$MONNIFY_API_KEY --dart-define=MONNIFY_PUBLIC_KEY=$MONNIFY_PUBLIC_KEY",
+  "outputDirectory": "frontend/build/web",
+  "framework": "flutter",
+  "installCommand": "cd frontend && flutter pub get"
+}
